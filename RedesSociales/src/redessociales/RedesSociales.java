@@ -7,6 +7,7 @@ package redessociales;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -21,6 +22,7 @@ public class RedesSociales {
     public static void main(String[] args) {
         // TODO code application logic here
        
+       
        Scanner leer = new Scanner(System.in);
         String direccion; 
        
@@ -32,8 +34,12 @@ public class RedesSociales {
         
         
 
-archivo.leerArchivo(direccion);        
+archivo.leerArchivo(direccion);      
+
+
    System.out.println("__________________________________________________");
+   
+   
   
    
    
